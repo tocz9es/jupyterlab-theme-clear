@@ -6,7 +6,7 @@ import {
 import { IThemeManager } from '@jupyterlab/apputils';
 
 /**
- * Initialization data for the @tocz9ea/jupyter-theme-clear extension.
+ * Initialization data for the @tocz9e/jupyter-theme-clear extension.
  */
 const extension: JupyterFrontEndPlugin<void> = {
   id: '@tocz9es/jupyter-theme-clear:plugin',
