@@ -1,6 +1,6 @@
-# jupyterlab_own_theme
+# jupyterlab-theme-clear
 
-![Github Actions Status](https://github.com/github_username/jupyterlab_own_theme/workflows/Build/badge.svg)
+![Github Actions Status](https://github.com/github_username/jupyterlab-theme-clear/workflows/Build/badge.svg)
 
 A JupyterLab extension.
 
@@ -13,7 +13,7 @@ A JupyterLab extension.
 ## Install
 
 ```bash
-pip install jupyterlab_own_theme
+pip install jupyterlab-theme-clear
 ```
 
 
@@ -29,7 +29,7 @@ The `jlpm` command is JupyterLab's pinned version of
 
 ```bash
 # Clone the repo to your local environment
-# Change directory to the jupyterlab_own_theme directory
+# Change directory to the jupyterlab-theme-clear directory
 # Install package in development mode
 pip install -e .
 # Link your development version of the extension with JupyterLab
@@ -58,5 +58,5 @@ jupyter lab build --minimize=False
 ### Uninstall
 
 ```bash
-pip uninstall jupyterlab_own_theme
+pip uninstall jupyterlab-theme-clear
 ```

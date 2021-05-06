@@ -1,1 +1,57 @@
-@import url('base.css');
+/* @import url('base.css'); */
+
+/*-----------------------------------------------------------------------------
+| Copyright (c) Jupyter Development Team.
+| Distributed under the terms of the Modified BSD License.
+|----------------------------------------------------------------------------*/
+
+@import './variables.css';
+
+/* Set the default typography for monospace elements */
+tt,
+code,
+kbd,
+samp,
+pre {
+  font-family: var(--jp-code-font-family);
+  font-size: var(--jp-code-font-size);
+  line-height: var(--jp-code-line-height);
+}
+
+#jp-top-panel, #jp-menu-panel {
+  background: var(--jp-layout-color2);
+}
+
+.lm-MenuBar {
+  background: var(--jp-layout-color2);
+}
+
+.jp-mod-active.jp-mod-selected {
+  border: var(--jp-border-width) solid var(--studio-blue);
+}
+
+#jp-top-panel {
+  /* display: flex; */
+}
+
+#jp-MainLogo {
+  /* flex: 1 1 auto; */
+  display: none;
+}
+
+#jp-title-panel-title {
+  /* flex: 1 1 auto; */
+}
+
+#jp-menu-panel {
+  /* flex: 1 1 auto; */
+}
+
+.p-MenuBar-content, .lm-MenuBar-content {
+  /* justify-content: end; */
+}
+
+/* .lm-mod-current.p-mod-current > .lm-TabBar-tabIcon.p-TabBar-tabIcon > svg > path,
+.lm-mod-current.p-mod-current > .lm-TabBar-tabIcon.p-TabBar-tabIcon > svg > g > path {
+  fill: var(--studio-blue) !important;
+} */
