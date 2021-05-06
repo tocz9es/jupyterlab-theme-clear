@@ -52,5 +52,5 @@ jobs:
         jlpm run eslint:check
         python -m pip install .
 
-        jupyter labextension list 2>&1 | grep -ie "@tocz9e/jupyterlab-theme-clear.*OK"
+        jupyter labextension list 2>&1 | grep -ie "@tocz9es/jupyterlab-theme-clear.*OK"
         python -m jupyterlab.browser_check
