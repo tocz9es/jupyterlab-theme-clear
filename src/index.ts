@@ -3,7 +3,7 @@ import {
   JupyterFrontEndPlugin
 } from '@jupyterlab/application';
 
-import { IThemeManager } from '@jupyterlab/apputils'
+import { IThemeManager } from '@jupyterlab/apputils';
 
 /**
  * Initialization data for the @tocz9ea/jupyter-theme-clear extension.
