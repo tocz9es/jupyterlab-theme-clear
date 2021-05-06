@@ -13,7 +13,6 @@ const extension: JupyterFrontEndPlugin<void> = {
   requires: [IThemeManager],
   autoStart: true,
   activate: (app: JupyterFrontEnd, manager: IThemeManager) => {
-    console.log('JupyterLab extension @tocz9ea/jupyter-theme-clear is activated!');
     const style = '@tocz9ea/jupyter-theme-clear/index.css';
     manager.register({
       name: 'Clear Theme',
