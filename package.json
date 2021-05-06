@@ -1,5 +1,5 @@
 {
-  "name": "@tocz9ea/jupyter-theme-clear",
+  "name": "@tocz9es/jupyterlab-theme-clear",
   "version": "0.1.0",
   "description": "A JupyterLab extension.",
   "keywords": [
@@ -7,9 +7,9 @@
     "jupyterlab",
     "jupyterlab-extension"
   ],
-  "homepage": "https://github.com/github_username/jupyterlab-theme-clear",
+  "homepage": "https://github.com/tocz9es/jupyterlab-theme-clear",
   "bugs": {
-    "url": "https://github.com/github_username/jupyterlab-theme-clear/issues"
+    "url": "https://github.com/tocz9es/jupyterlab-theme-clear/issues"
   },
   "license": "BSD-3-Clause",
   "author": {
@@ -25,7 +25,7 @@
   "style": "style/index.css",
   "repository": {
     "type": "git",
-    "url": "https://github.com/github_username/jupyterlab-theme-clear.git"
+    "url": "https://github.com/tocz9es/jupyterlab-theme-clear.git"
   },
   "scripts": {
     "build": "jlpm run build:lib && jlpm run build:labextension:dev",
