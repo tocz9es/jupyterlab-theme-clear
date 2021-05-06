@@ -29,7 +29,7 @@ package_data_spec = {
     name: ["*"],
 }
 
-labext_name = "@tocz9ea/jupyterlab-theme-clear"
+labext_name = "@tocz9es/jupyterlab-theme-clear"
 
 data_files_spec = [
     ("share/jupyter/labextensions/%s" % labext_name, str(lab_path), "**"),
