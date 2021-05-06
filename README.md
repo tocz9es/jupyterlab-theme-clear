@@ -1,6 +1,6 @@
 # jupyterlab-theme-clear
 
-![Github Actions Status](https://github.com/github_username/jupyterlab-theme-clear/workflows/Build/badge.svg)
+![Github Actions Status](https://github.com/tocz9es/jupyterlab-theme-clear/workflows/Build/badge.svg)
 
 A JupyterLab extension.
 
